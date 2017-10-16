@@ -10,6 +10,7 @@ function deepestChild() {
   const div = document.getElementById('grand-node').children
   while (div.children) {
     div = div.children
+  }
   return div
 }
 
