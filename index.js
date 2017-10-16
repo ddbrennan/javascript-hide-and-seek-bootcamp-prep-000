@@ -7,9 +7,9 @@ function nestedTarget() {
 }
 
 function deepestChild() {
-  var div = document.getElementById('grand-node')
+  var div = document.getElementById('grand-node')[0]
   while (div.children) {
-    div = div.children[0]
+    div = div.children
   }
   return div
 }
